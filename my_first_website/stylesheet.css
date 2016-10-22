@@ -1,0 +1,36 @@
+body {
+  background-image: url("typewriter_2.jpg");
+  background-size: 1300px 1000px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Courier;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: Courier;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-family: Courier;
+  font-size: 20px;
+}
+
+div {
+  color: black;
+  text-align: center;
+  font-family: Courier;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  text-align: center;
+}
