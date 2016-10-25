@@ -1,5 +1,5 @@
 body {
-  background-image: url("typewriter_2.jpg");
+  background-color: white;
   background-size: 1300px 1000px;
   background-repeat: no-repeat;
 }
@@ -33,4 +33,11 @@ div {
 a {
   color: black;
   text-align: center;
+}
+
+footer {
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	height: auto;
 }

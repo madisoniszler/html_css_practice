@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Good Coffee</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -29,7 +26,8 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Coffee <span class="sr-only">(current)</span></a></li>
         <li><a href="#mission">Mission</a></li>
-
+        <li><a href="about_the_roaster.html">About the Roaster</a></li>
+        <li><a href="order_coffee.html">Order Coffee</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -59,9 +57,47 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <div class="jumbotron">
+      <h1 class="animated fadeInDown">Good Coffee Co.</h1>
+    </div>
+    <div class="container-fluid mission">
+      <div class="row">
+        <h3> Here at Good Coffee Co we are passionate about serving the best coffee you'll ever taste.
+        <br /> Our staff are self-described coffee-nerds with impeccable technique.
+        <br /> Stop by today and experience the Good Coffee difference. </h3>
+      </div>
+    </div>
+    <div class="order-button">
+      <a href="order_coffee.html" class="btn btn-default">Order Coffee Today!</a>
+    </div>
+    <div class="container features">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+            <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/3/3f/Coffee_Beans.jpg">
+    	    <p> The freshest locally sourced coffee. Organic and Fair Trade certified</p>
+    	  </div>
+    	<div class="col-xs-12 col-sm-4">
+    	    <img class="img-responsive" src="http://pixabay.com/static/uploads/photo/2014/07/15/13/36/coffee-shop-393954_640.jpg">
+    	    <p> A perfect environment to meet with a friend or be alone and get work done.</p>
+    	</div>
+      <div class="col-xs-12 col-sm-4">
+    	    <img class="img-responsive" src="http://pixabay.com/static/uploads/photo/2013/11/05/23/55/coffee-206142_640.jpg">
+    	    <p> Quality hand-crafted espresso shots pulled with the greatest of care.</p>
+    	</div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  <footer class="container-fluid">
+    <p>© Good Coffee Co. 2014 </p>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Location</a></li>
+      <li><a href="#">Coffee</a></li>
+    </ul>
+  </footer>
   </body>
 </html>
